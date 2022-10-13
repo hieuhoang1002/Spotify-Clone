@@ -1,0 +1,48 @@
+.container {
+  padding: 6rem 0 0 26rem;
+  background-color: #181818;
+  color: #ffffff;
+  min-height: calc(100vh - 6rem);
+
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin: 2rem 2rem;
+  }
+  .category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      font-size: 12px;
+      margin: 2rem 2rem;
+      font-weight: 600;
+      color: rgb(159, 159, 159);
+      letter-spacing: 1.5px;
+    }
+    P:hover {
+      color: #ffffff;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  .playlists_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .footer_playlist {
+    height: 20rem;
+    hr {
+      margin-top: 10rem;
+      border: 0.1px solid rgb(61, 60, 60);
+    }
+  }
+}
+// .progress_container {
+//   height: 90vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }

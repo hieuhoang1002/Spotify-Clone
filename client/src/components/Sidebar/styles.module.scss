@@ -1,0 +1,145 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 23rem;
+  height: 100vh;
+  background: var(--black);
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.3rem;
+  z-index: 100;
+
+  .logo {
+    display: flex;
+
+    .text_name {
+      // color: rgb(32, 250, 8);
+      color: var(--white);
+      margin-top: 20px;
+
+      h1,
+      p {
+        margin: 0;
+        text-align: center;
+      }
+    }
+
+    .logo_img {
+      width: 7rem;
+      height: 7rem;
+      margin: 0 0 2.5rem 5rem;
+    }
+  }
+
+  .progress_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+  }
+
+  .menu_link {
+    background: var(--black);
+    color: var(--light-white);
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 0;
+    border-radius: 0.2rem;
+    margin-bottom: 0.5rem;
+
+    svg,
+    img {
+      width: 3rem;
+      height: 3rem;
+      margin: 0 2rem;
+      object-fit: contain;
+    }
+
+    span {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    &:hover {
+      color: var(--white);
+    }
+  }
+  .create__btn {
+    margin-top: 6rem;
+    background: var(--black);
+    color: var(--light-white);
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 0;
+    border-radius: 0.2rem;
+    margin-bottom: 0.5rem;
+
+    svg {
+      background-color: var(--light-white);
+      color: var(--black);
+      width: 2rem;
+      height: 2rem;
+      margin: 0 2rem;
+      padding: 0.5rem;
+    }
+
+    span {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    &:hover {
+      color: var(--white);
+      svg {
+        background-color: var(--white);
+      }
+    }
+  }
+  .notelibrary {
+    color: white;
+    margin: 18.5rem 0 0 18rem;
+    position: absolute;
+  }
+  .noteplaylist {
+    color: white;
+    margin: 29.5rem 0 0 20rem;
+    position: absolute;
+  }
+  .notemv {
+    color: white;
+    margin: 34.5rem 0 0 22rem;
+    position: absolute;
+  }
+
+  .underline {
+    width: 90%;
+    margin: 1rem 5%;
+    height: 0.1rem;
+    background-color: var(--light-white);
+  }
+
+  ._link {
+    color: var(--light-white);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0.6rem 0 0.6rem 2rem;
+
+    &:hover {
+      color: var(--white);
+    }
+  }
+
+  .active {
+    color: red;
+    background-color: var(--light-black);
+  }
+
+  // .active_link {
+  //   color: var(--white);
+  // }
+}
+
+.note {
+  background-color: red;
+}

@@ -1,0 +1,56 @@
+.container {
+  height: 100%;
+  // overflow: hidden;
+
+  .row {
+    width: 1146px;
+    display: flex;
+    margin: 0 0rem 0 1rem;
+    padding: 0 0 0 10rem;
+    display: grid;
+    grid-template-columns: 0.9fr 8.45fr 5.6fr 1.02fr;
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+      cursor: default;
+    }
+    .col {
+      display: flex;
+      align-items: center;
+      color: white;
+      font-weight: 400;
+      font-size: 1.5rem;
+
+      .iconPlayer {
+        width: 1.7rem;
+        height: 1.7rem;
+      }
+
+      img {
+        height: 40px;
+        width: 40px;
+      }
+      .title {
+        width: 20rem;
+        margin: 0 0 2.5rem 2rem;
+
+        font-weight: 700;
+        font-size: 13px;
+      }
+      // #title {
+      //   color: yellow;
+      //   color: inherit;
+      // }
+      .name {
+        font-size: 14px;
+        margin: 3rem 0 0 -20rem;
+        color: rgb(158, 165, 165);
+        font-weight: 500;
+      }
+    }
+    // .col > #title {
+    //   color: inherit;
+    // }
+  }
+}

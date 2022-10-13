@@ -1,0 +1,67 @@
+.containers {
+  display: flex;
+  .arrow {
+    margin-top: 2rem;
+    width: 0px;
+    height: 0px;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid rgb(0, 115, 255);
+  }
+  .container {
+    width: 35rem;
+    height: 19rem;
+    background-color: rgb(0, 115, 255);
+    border-radius: 7px;
+    .header {
+      color: white;
+      text-align: start;
+      h2 {
+        font-size: 20px;
+        padding: 0 0 0 1.5rem;
+      }
+      p {
+        font-size: 15px;
+
+        padding: 0.1rem 0 0 1.5rem;
+        font-weight: 700;
+      }
+    }
+    .footer {
+      margin: 3rem 2rem 0 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      .notnow {
+        color: white;
+        background-color: rgb(0, 115, 255);
+        border: none;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 16px 36px;
+        transition: all 0.5s;
+      }
+      .notnow:hover {
+        transform: scale(1.05);
+        transition: all 0.5s;
+        color: black;
+        background-color: rgb(0, 255, 166);
+      }
+      .loginnow {
+        font-weight: 700;
+        font-size: 14px;
+        padding: 16px 40px;
+        border: none;
+        border-radius: 30px;
+        transition: all 0.5s;
+      }
+      .loginnow:hover {
+        transform: scale(1.05);
+        transition: all 0.5s;
+        color: white;
+        background-color: rgb(0, 255, 166);
+      }
+    }
+  }
+}
